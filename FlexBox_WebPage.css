@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+    border: 2mm;
+    border-color: black;
+}
+
+body {
+    display: flex;
+    min-height: 400px;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.col-1 {
+    background: #D7E8D4;
+    flex: 0.5;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    background-color: rgb(165, 165, 199);
+}
+
+.content {
+    /* text-align: center; */
+    display: flex;
+    padding-left: 1px;
+    flex-direction: column;
+}
+
+h1 {
+    padding-left: 2px;
+}
+
+header,
+footer {
+    background: yellowgreen;
+    height: 10px;
+    text-align: center;
+}
+
+header,
+footer,
+article,
+nav {
+    padding: 1em;
+}
